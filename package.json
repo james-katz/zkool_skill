@@ -1,0 +1,15 @@
+{
+  "name": "openclaw-skill-zkool",
+  "version": "1.0.0",
+  "description": "A OpenClaw skill to operate a Zcash Wallet",
+  "keywords": ["openclaw-skill", "zcash", "zkool", "wallet", "crypto"],
+  "author": "James Katz",
+  "license": "MIT",
+  "scripts": {
+    "cli": "node scripts/zkool_cli.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "graphql-request": "^7.4.0"
+  }
+}
